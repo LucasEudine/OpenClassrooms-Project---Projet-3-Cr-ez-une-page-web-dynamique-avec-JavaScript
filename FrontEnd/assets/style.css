@@ -58,6 +58,16 @@ header {
 	justify-content: space-between;
 	margin: 50px 0
 }
+
+header a {
+	color: black;
+	text-decoration: none;
+}
+
+.loginBold {
+	font-weight: bold;
+}
+
 section {
 	margin: 50px 0
 }
@@ -207,4 +217,49 @@ footer nav ul {
 .filtres button:hover {
 	color: white;
 	background-color: #1D6154;
+}
+
+
+
+
+
+.login {
+}
+
+.login h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.login form {
+	width: 40%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	gap: 5px;
+}
+
+.login input[type="email"] {
+    margin-bottom: 20px;
+	border: transparent;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+	height: 40px;
+}
+
+.login input[type="password"] {
+    border: transparent;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+	height: 40px;
+}
+
+.login input[type="submit"] {
+    padding: 7px 10px;
+	border: transparent;
+}
+
+.login a {
+	text-align: center;
+	color: black;
 }
