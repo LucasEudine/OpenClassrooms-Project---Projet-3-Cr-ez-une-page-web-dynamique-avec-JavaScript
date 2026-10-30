@@ -219,8 +219,31 @@ footer nav ul {
 	background-color: #1D6154;
 }
 
+.titreMesProjets {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 65px;
+	margin-top: 90px;
+}
 
+.titreMesProjets img {
+	filter: brightness(0);
+	width: 11px;
+	height: 11px;
+	padding-right: 5px;
+}
 
+.titreMesProjets p {
+	font-size: 11px;
+}
+
+#portfolio .titreMesProjets h2 {
+	margin-bottom: 0;
+	padding-right: 20px;
+	font-size: 22px;
+}
 
 
 .login {
@@ -262,4 +285,24 @@ footer nav ul {
 .login a {
 	text-align: center;
 	color: black;
+}
+
+.editModeHeader_div{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 8px;
+	padding: 10px 0;
+}
+
+.editModeHeader_img{
+	width: 12px;
+	height: 12px;
+}
+
+.editModeHeader_p {
+	color: white;
+	font-size: 10px;
+	transform: translateY(2px);
 }
